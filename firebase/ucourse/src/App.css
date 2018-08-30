@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+body{
+  background-color: #0c70b4;
+  color:#fff;
+  font: normal 400 18px "PT Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.card{
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  margin: 20px auto;
+  opacity: 1;
+  color: #000;
+  line-height: 49px;
+}
+imput[type="radio"]{
+  font-size:60px;
+}
+.feesback-button:active{
+  top: 5px;
+  background: -webkit-linear-gradient(-90deg,#ff8583 0,#ff5350 100%);
+  background: -moz-linear-gradient(180deg,#ff8583 0,#ff5350 100%);
+  background: linear-gradient(180deg,#ff8583 0,#ff5350 100%); 
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 0 5px 0 0 rgba(178,49,49,1);
+  box-shadow: 0 5px 0 0 rgba(178,49,49,1);
+
+}
+
+.feedback-button{
+  display:inline-block;
+  cursor: pointer;
+  margin: 0 2% 0 0;
+  padding:12px 22px;
+  border: none;
+  font: normal normal bold 1.6m/normal "Syncopate", Helvetica, sans-serif;
+  color: #ecf0f1;
+  background: linear-gradient(180deg,#ff8583 0 , #ff5350 100%);
+  background-clip: border-box;
+  background-size: auto;
+  box-shadow: 0 10px 0 0 rgba(178,49,49,1);
+}
+.namy{
+  font-size:30px;
+  padding:20px;
+}
